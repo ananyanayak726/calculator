@@ -13,8 +13,8 @@
     text-align:center;
 }
 
-.bg-black{
-    background-color:black;
+.bg{
+    background-color:rgba(69, 7, 54, 0.804);
 }
 
 .mx-auto{
@@ -40,7 +40,7 @@ html,body{
     width: 66px;
     height:55px;
     margin: 0 3px;
-    border: 4px solid black;
+    border: 4px solid rgba(39, 135, 66, 0.215);
     border-radius: 9px;
     cursor:pointer;
 }
@@ -51,12 +51,12 @@ html,body{
     font-size: 25px;
     margin: 0 14px;;
     padding: 10px 0px;
-    border: 2px solid black;
+    border: 2px solid rgba(121, 154, 14, 0.801);
     border-radius: 10px;
 }
 </style>
 <body>
-    <h1 class="text-center">Welcome to Calculate me!</h1>
+    <h1 class="text-center">Calculate me!</h1>
     <div class="container flex flex-col items-center  mx-auto m-w-20">
     <div class="row">
             <input class="input" type="text"/>
@@ -115,4 +115,6 @@ html,body{
         
         </script>
 
-</html>
+</html>;
+
+
